@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>result-bad</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="55" cy="55" r="53"></circle>
+        <filter x="-3.8%" y="-3.8%" width="107.5%" height="107.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-8" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.666666667   0 0 0 0 0.207843137   0 0 0 0 0.207843137  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="8" dy="0" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.478431373   0 0 0 0 0.478431373  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-18" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-7" transform="translate(-248.000000, -586.000000)">
+            <g id="result-bad" transform="translate(248.000000, 586.000000)">
+                <g id="Oval">
+                    <use fill="#E0504A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <path d="M55,109.5 C24.9004811,109.5 0.5,85.0995189 0.5,55 C0.5,24.9004811 24.9004811,0.5 55,0.5 C85.0995189,0.5 109.5,24.9004811 109.5,55 C109.5,85.0995189 85.0995189,109.5 55,109.5 Z M55,106.5 C83.4426646,106.5 106.5,83.4426646 106.5,55 C106.5,26.5573354 83.4426646,3.5 55,3.5 C26.5573354,3.5 3.5,26.5573354 3.5,55 C3.5,83.4426646 26.5573354,106.5 55,106.5 Z" id="Oval-Copy" fill="#203568" fill-rule="nonzero"></path>
+                <g id="Group" transform="translate(28.000000, 44.000000)" fill="#203568" fill-rule="nonzero">
+                    <path d="M15.5,8 C15.5,8.82842712 14.8284271,9.5 14,9.5 C13.1715729,9.5 12.5,8.82842712 12.5,8 C12.5,5.51471863 10.4852814,3.5 8,3.5 C5.51471863,3.5 3.5,5.51471863 3.5,8 C3.5,8.82842712 2.82842712,9.5 2,9.5 C1.17157288,9.5 0.5,8.82842712 0.5,8 C0.5,3.85786438 3.85786438,0.5 8,0.5 C12.1421356,0.5 15.5,3.85786438 15.5,8 Z" id="Shape" transform="translate(8.000000, 5.000000) scale(1, -1) translate(-8.000000, -5.000000) "></path>
+                    <path d="M53.5,8 C53.5,8.82842712 52.8284271,9.5 52,9.5 C51.1715729,9.5 50.5,8.82842712 50.5,8 C50.5,5.51471863 48.4852814,3.5 46,3.5 C43.5147186,3.5 41.5,5.51471863 41.5,8 C41.5,8.82842712 40.8284271,9.5 40,9.5 C39.1715729,9.5 38.5,8.82842712 38.5,8 C38.5,3.85786438 41.8578644,0.5 46,0.5 C50.1421356,0.5 53.5,3.85786438 53.5,8 Z" id="Shape-Copy" transform="translate(46.000000, 5.000000) scale(1, -1) translate(-46.000000, -5.000000) "></path>
+                    <path d="M36.1667223,30.054942 C36.6674298,30.7149295 36.5383078,31.6558587 35.8783203,32.1565662 C35.2183327,32.6572736 34.2774035,32.5281516 33.7766961,31.8681641 C32.1779277,29.7608115 29.6949828,28.5 27,28.5 C24.3251251,28.5 21.8587074,29.7418944 20.2579876,31.8227634 C19.7528765,32.4793867 18.8111046,32.6022117 18.1544812,32.0971006 C17.4978579,31.5919895 17.3750329,30.6502176 17.880144,29.9935942 C20.0428391,27.1821807 23.383671,25.5 27,25.5 C30.6435669,25.5 34.0066584,27.2077401 36.1667223,30.054942 Z" id="Shape-Copy-2" transform="translate(27.020391, 28.980818) scale(1, -1) rotate(-180.000000) translate(-27.020391, -28.980818) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
