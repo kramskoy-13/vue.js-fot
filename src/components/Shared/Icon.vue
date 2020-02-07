@@ -11,13 +11,9 @@
             iconDateBase64: String,
             IMGstyle: String
         },
-        mounted() {
-            console.log("Icon mounted")
-        },
         data() {
             return {}
-        },
-        computed: {}
+        }
     }
 </script>
 

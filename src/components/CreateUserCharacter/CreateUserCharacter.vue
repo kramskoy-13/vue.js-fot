@@ -46,8 +46,8 @@
                 <PhotoPreview v-if="photoPreviewed" @clickHandler="saveUserPhoto" @changeHandler="previewFiles">
                     Готово
                 </PhotoPreview>
-
-                <PhotoPreview v-if="photoIsSaved && this.activeIconIndex === 0" @clickHandler="switchBackToAvataIcons" @changeHandler="previewFiles">
+               
+                <PhotoPreview v-if="photoIsSaved && activeIconIndex === 0" @clickHandler="switchBackToAvataIcons" @changeHandler="previewFiles">
                     Видалити
                 </PhotoPreview>
 
